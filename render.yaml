@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: youtube-transcriber-api
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "bash start.sh"
